@@ -1,5 +1,12 @@
 # @tinacms/astro
 
+## 0.6.1
+
+### Patch Changes
+
+- Updated dependencies [[`cdbf469`](https://github.com/tinacms/tinacms/commit/cdbf469d96d8a3bcf5d3096d53907a06eaaed7f2)]:
+  - @tinacms/bridge@0.3.1
+
 ## 0.6.0
 
 ### Minor Changes

@@ -1,5 +1,16 @@
 # tinacms
 
+## 3.10.2
+
+### Patch Changes
+
+- [#7194](https://github.com/tinacms/tinacms/pull/7194) [`711ba30`](https://github.com/tinacms/tinacms/commit/711ba30f6e8955bbcea134fd22a5b498b7734325) Thanks [@kulesy](https://github.com/kulesy)! - `Button` now renders the shared loading-dots indicator automatically when `busy`, so every busy button gets a consistent spinner instead of each call site wiring its own (and some, like the account password form, were missing it entirely). The dots inherit the button text color so they stay visible across variants.
+
+- [#7204](https://github.com/tinacms/tinacms/pull/7204) [`59efccc`](https://github.com/tinacms/tinacms/commit/59efcccd3f1713870e40ebd9db25659cd6357237) Thanks [@joshbermanssw](https://github.com/joshbermanssw)! - Show a clear error when repo-based media is used with a self-hosted site, instead of a misleading "Bad Route" message.
+
+- Updated dependencies [[`cdbf469`](https://github.com/tinacms/tinacms/commit/cdbf469d96d8a3bcf5d3096d53907a06eaaed7f2)]:
+  - @tinacms/bridge@0.3.1
+
 ## 3.10.1
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # tinacms-cli
 
+## 2.5.6
+
+### Patch Changes
+
+- [#7176](https://github.com/tinacms/tinacms/pull/7176) [`5daa624`](https://github.com/tinacms/tinacms/commit/5daa62453428320d3fe33e8f549aa814a42237f1) Thanks [@joshbermanssw](https://github.com/joshbermanssw)! - Improve the error message when the CLI cannot resolve `tinacms` or a `@tinacms/*` package while building your Tina config or database. It now names the package that failed, reports the directory Tina searched from, and points at parent-directory package-manager files (`package.json`, `node_modules`, `yarn.lock`, `.pnp.cjs`) that can hijack module resolution. esbuild package resolution is also anchored at the project root.
+
+- Updated dependencies [[`711ba30`](https://github.com/tinacms/tinacms/commit/711ba30f6e8955bbcea134fd22a5b498b7734325), [`59efccc`](https://github.com/tinacms/tinacms/commit/59efcccd3f1713870e40ebd9db25659cd6357237)]:
+  - tinacms@3.10.2
+  - @tinacms/app@2.5.10
+
 ## 2.5.5
 
 ### Patch Changes
